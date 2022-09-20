@@ -11,11 +11,11 @@ function checkprime(num){
     return false
   }
 }
-let ans=checkprime(15);
+let answer=checkprime(15);
 
-if(ans==true){
+if(answer==true){
   console.log("prime");
 }
-else if(ans==false){
+else if(answer==false){
   console.log("Not prime");
 }
